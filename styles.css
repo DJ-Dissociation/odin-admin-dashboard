@@ -1,0 +1,59 @@
+.container {
+    display: grid;
+    border: solid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.sidebar {
+    grid-row: 1/3;
+    border: solid;
+    background-color: rgb(155, 192, 155);
+}
+
+.header {
+    border: solid;
+}
+
+.header-row-1, .header-row-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-row-1>div, .header-row-2>div {
+    display: flex;
+}
+
+.header-greeting {
+    font-size: smaller;
+}
+
+
+
+.main-content {
+    border: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 12px;
+}
+
+.projects {
+    grid-row: 1/3;
+    border: solid;
+}
+
+.cardset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 4px;
+}
+
+.announcements, .trending, .card {
+    border: solid;
+}
+
+.trending-card {
+    display: flex;
+}
