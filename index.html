@@ -5,26 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/frog-avatar-1.png">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="container">
         <div class="sidebar">
-            <div class="sidebar-heading">
-                Dashboard
-            </div>
+            <div class="sidebar-heading">Dashboard</div>
             <ul class="sidebar-links">
-                <li>🏠 Home</li>
-                <li>🐸 Profile</li>
-                <li>💬 Messages</li>
-                <li>🕑 History</li>
-                <li>✔️ Tasks</li>
-                <li>🤝 Communities</li>
+                <li>
+                    <div>🏠</div>
+                    <div>Home</div>
+                </li>
+                <li>
+                    <div>🐸</div>
+                    <div>Profile</div>
+                </li>
+                <li>
+                    <div>💬</div>
+                    <div>Messages</div>
+                </li>
+                <li>
+                    <div>🕑</div>
+                    <div>History</div>
+                </li>
+                <li>
+                    <div>✔️</div>
+                    <div>Tasks</div>
+                </li>
+                <li>
+                    <div>🤝</div>
+                    <div>Communities</div>
+                </li>
             </ul>
             <ul class="sidebar-options">
-                <li>⚙️ Settings</li>
-                <li>🔧 Support</li>
-                <li>🔐 Privacy</li>
+                <li>
+                    <div>⚙️</div>
+                    <div>Settings</div>
+                </li>
+                <li>
+                    <div>🔧</div>
+                    <div>Support</div>
+                </li>
+                <li>
+                    <div>🔐</div>
+                    <div>Privacy</div>
+                </li>
             </ul>
 
         </div>
@@ -36,7 +62,7 @@
                     <input type="text">
                 </div>
                 <div class="row-1-right">
-                    <div style="font-size:32px;">🛎️</div>
+                    <b style="font-size:24px;">🔔</b>
                     <img class="pfp" src="./images/frog-avatar-1.png" alt="My PFP">
                     <b>Nick Kuntz</b>
                 </div>
@@ -63,7 +89,7 @@
         
         <div class="main-content">
             <div class="projects">
-                <b>Your Projects</b>
+                <b class="content-title">Your Projects</b>
                 <div class="cardset">
                     <div class="card">
                         <b>Super Cool Project</b>
@@ -122,16 +148,18 @@
                 </div>
             </div>
             <div class="announcements">
-                <b>Announcements</b>
+                <b class="content-title">Announcements</b>
                 <div class="announcement-cards">
                     <div class="announcement">
                         <b>Site Maintenance</b>
                         <div>There's site maintenance coming up. Be there or be square.</div>
                     </div>
+                    <hr>
                     <div class="announcement">
                         <b>Community Share Day</b>
                         <div>Next Wednesday is our corporate sponsored day to share something from our community. Kinda like show and tell but girlbossified.</div>
                     </div>
+                    <hr>
                     <div class="announcement">
                         <b>Updated Privacy Policy</b>
                         <div>Per last week's Supreme Court ruling, we're required to inform you what data we're taking. Which is all of it.</div>
@@ -139,7 +167,7 @@
                 </div>
             </div>
             <div class="trending">
-                <b>Trending</b>
+                <b class="content-title">Trending</b>
                 <div class="trending-cards">
                     <div class="trending-card">
                         <img class = "trending-pfp" src="./images/morgana.png" alt="Avatar of Morgana">
